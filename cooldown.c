@@ -19,7 +19,7 @@
 #include <stdlib.h>
 #define MAX_SEQ 10
 
-void print_job(char *job, int cooldown)
+void print_job(const char *job, const int cooldown)
 {
     char job_seq[26];
     int cnt = 0, i, diff;
